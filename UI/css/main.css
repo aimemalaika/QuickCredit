@@ -118,3 +118,44 @@ body,html{
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+.form-input{
+    width: 40%;
+    border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    border-bottom: 1px solid #09ada7;
+    background: #197472cc;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: #ffffffff;
+}
+.floating-label{
+    position: absolute;
+    color: rgb(189, 189, 189);
+    padding: 10px 5px;
+    transition: all 0.5s ease;
+    left: 30%;
+}
+.form-input:focus + .floating-label{
+    margin-top: -5%;
+    color: #fff;
+}
+.form-input:focus + .floating-label,.form-input:valid + .floating-label {
+   margin-top: -5%;
+}
+.btn{
+    border: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+.btn-success{
+    background: #0c5351;
+}
+.btn-rounded{
+    border-radius: 30px;
+}
+.btn-md{
+    font-size: 1.5em;
+}
