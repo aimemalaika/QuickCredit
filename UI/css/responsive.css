@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (max-width: 460px) {
     .login-container {
         position: absolute;
         width: 90%;
@@ -14,10 +14,8 @@
         font-size: 1em;
     }
     .col-md-12{
-        width: 90%;
-    }
-    .col-md-12{
-        padding: 5%;
+        padding: 3%;
+        width: 94%;
     }
     .form-input{
         width: 90%;
@@ -36,4 +34,7 @@
         height: 21px;
         width: 21px;
     }
+    .form-input:focus + .floating-label,.form-input:valid + .floating-label {
+        margin-top: -10%;
+     }
 }
