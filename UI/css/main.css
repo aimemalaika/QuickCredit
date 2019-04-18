@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+}
+.container-full-page{
+    width: 100%;
+    margin: 0;
+    padding: 5%;
+}
+.col-md-12{
+    width: 100%;
+}
