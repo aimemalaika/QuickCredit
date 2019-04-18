@@ -159,3 +159,10 @@ body,html{
 .btn-md{
     font-size: 1.5em;
 }
+.sticky-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
