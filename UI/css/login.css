@@ -16,3 +16,36 @@
     left: 0;
     background-color: rgba(16, 120, 116, 0.84);
 }
+.app-name{
+    color: #ffffffff;
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    z-index: 1;
+}
+.app-name span{
+    background: orange;
+    padding: 5px 20px;
+    font-size: 1.5em;
+    color: #187472;
+    border-radius: 5px;
+    border: 1px solid #138d89;
+}
+.app-name em{
+    letter-spacing: 9px;
+    font-size: 1.5em;
+}
+.login-container{
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    left: 25%;
+    right: 25%;
+    bottom: 10%;
+}
+.p-t-input{
+    padding-top: 5%;
+}
