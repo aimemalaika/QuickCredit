@@ -6,20 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="fonts/googlefont.css">
     <title>Login | Quick Credit</title>
 </head>
 <body>
     <div class="login-background">
        <div class="login-container">
-            <p class="app-name">Quick Credit</p>
+            <p class="app-name"><span>Quick</span> <em>Credit</em></p>
             <div class="login-form p-t-1">
                 <h1 class="text-center text-white text-bold text-uppercase">Log in</h1>
                 <form method="post">
                     <div class="col-md-12 p-t-input p-l-3 p-r-3">
-                        <input class="col-md-4" type="email" name="" id="">
+                        <input class="col-md-4 form-input" required type="email" name="" id="email">
+                        <label class="floating-label" for="email">Email</label>
                     </div>
                     <div class="col-md-12 p-t-input p-l-3 p-r-3">
-                        <input class="col-md-4" type="password" name="" id="">
+                        <input class="col-md-4 form-input" required type="password" name="" id="password">
+                        <label class="floating-label" for="password">Password</label>
                     </div>
                     <div class="col-md-12 p-t-input p-l-3 p-r-3">
                         <label class="checkbox-container">
@@ -30,7 +33,7 @@
                     </div>
                     <div class="col-md-12 p-t-input">
                         <center>
-                            <button type="submit">Sig In</button>
+                            <button class="btn btn-md btn-bold btn-success btn-rounded" type="submit">Sig In</button>
                         </center>
                     </div>
                 </form>
