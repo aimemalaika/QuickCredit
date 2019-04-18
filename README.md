@@ -1,0 +1,2 @@
+# QuickCredit
+Andela Developer Challenge
