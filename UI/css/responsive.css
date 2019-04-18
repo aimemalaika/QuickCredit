@@ -1,4 +1,4 @@
-@media (max-width: 460px) {
+@media (max-width: 736px) {
     .login-container {
         position: absolute;
         width: 90%;
@@ -18,7 +18,7 @@
         width: 94%;
     }
     .form-input{
-        width: 90%;
+        width: 94%;
     }
     .floating-label{
         left: 5%;
@@ -30,11 +30,62 @@
         margin: 3px 35px;
         font-size: .8em;
     }
+    .p-d-inp-log {
+        margin: 0 0%;
+    }
     .checkmark{
         height: 21px;
         width: 21px;
     }
     .form-input:focus + .floating-label,.form-input:valid + .floating-label {
         margin-top: -10%;
-     }
+    }
+    .sticky-footer {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        left: 0;
+    }
+}
+
+@media (min-width: 414px) {
+    .app-name {
+       font-size: 2em;
+    }
+}
+@media only screen and (max-width: 852px) and (min-width: 737px)  {
+    .login-container {
+        width: 80%;
+        left: 10%;
+        right: 10%;
+    }
+    .p-l-3{
+        padding-left: 20%;
+    }
+    .p-r-3{
+        padding-right: 20%;
+    }
+    .col-md-12 {
+        width: 60%;
+    }
+    .form-input {
+        width: 100%;
+    }
+    .sticky-footer {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        left: 0;
+    }
+    .form-input {
+        width: 97%;
+    }
+    .floating-label {
+        left: 22%;
+    }
+}
+@media (min-width: 1290px) {
+    .login-background {
+        background-size: cover;
+    }
 }
