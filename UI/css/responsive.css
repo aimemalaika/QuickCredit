@@ -1,0 +1,39 @@
+@media (max-width: 320px) {
+    .login-container {
+        position: absolute;
+        width: 90%;
+        top: 10%;
+        left: 5%;
+        right: 5%;
+        bottom: 10%;
+    }
+    .app-name {
+        font-size: 1em;
+    }
+    .app-name span,.app-name em {
+        font-size: 1em;
+    }
+    .col-md-12{
+        width: 90%;
+    }
+    .col-md-12{
+        padding: 5%;
+    }
+    .form-input{
+        width: 90%;
+    }
+    .floating-label{
+        left: 5%;
+    }
+    .sticky-footer{
+        font-size: .7em;
+    }
+    .checkbox-container p{
+        margin: 3px 35px;
+        font-size: .8em;
+    }
+    .checkmark{
+        height: 21px;
+        width: 21px;
+    }
+}
