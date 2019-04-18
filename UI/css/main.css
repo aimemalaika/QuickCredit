@@ -12,3 +12,105 @@ body,html{
 .col-md-12{
     width: 100%;
 }
+.col-md-6{
+    width: 60%;
+}
+.col-md-4{
+    width: 40%;
+}
+.p-t-1{
+    padding-top: 10%;
+}
+.p-t-2{
+    padding-top: 20%;
+}
+.p-l-3{
+    padding-left: 30%;
+}
+.p-l-4{
+    padding-left: 40%;
+}
+.p-r-4{
+    padding-right: 40%;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: #ffffffff;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-lowercase{
+    text-transform: lowercase;
+}
+.text-capital{
+    text-transform: capitalize;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+.checkbox-container p{
+    margin: 3px 35px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+.checkbox-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
