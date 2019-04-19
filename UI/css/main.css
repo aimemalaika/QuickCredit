@@ -23,6 +23,7 @@ body,html{
 }
 .nav ul{
     list-style-type: none;
+    justify-content: flex-end !important;
 }
 .nav .row img{
     height: 80%;
@@ -56,7 +57,7 @@ body,html{
 }
 .p-d-n{
     padding-right: 20px;
-    padding-top: 3%;
+    padding-top: 2%;
 }
 .p-r-4{
     padding-right: 40%;
@@ -186,7 +187,7 @@ a{
     left: 0;
 }
 .hidden{
-    display: none;
+    display: none !important;
     transition: max-height 350ms ease-in-out;
 }
 .mouse{
@@ -205,7 +206,7 @@ a:hover{
 }
 .animate-right{
     position:relative;
-    animation:animateright 0.4s
+    animation:animateright 1s
 }
  @keyframes animateright{
     from{right:-300px;opacity:0} 
@@ -213,7 +214,7 @@ a:hover{
 }
 .animate-left{
     position:relative;
-    animation:animateleft 0.4s
+    animation:animateleft 1s
 }
 @keyframes animateleft{
     from{left:-300px;opacity:0} 
@@ -221,18 +222,20 @@ a:hover{
 }
 .animate-bottom{
     position:relative;
-    animation:animatebottom 0.4s
+    animation:animatebottom 1s
 }
 @keyframes animatebottom{
     from{bottom:-300px;opacity:0} 
     to{bottom:0;opacity:1}
 }
 .animate-fading{
-    animation:fading 10s infinite
+    animation:fading 1s
 }@keyframes fading{
     0%{opacity:0}
-    50%{opacity:1}
-    100%{opacity:0}
+    25%{opacity:.25}
+    50%{opacity:.50}
+    75%{opacity:.75}
+    100%{opacity:1}
 }
 .pr-15px{
     padding-right: 15px;
@@ -264,12 +267,41 @@ a:hover{
 
 header{
     background: #187472;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 12%;
 }
 header .logo{
-    padding: 2%;
+    padding: 2.3%;
 }
 .username{
     display: flex;
+    cursor: pointer;
+    justify-content: end;
+    width: 28%;
+}
+.username .names:hover,.username img:hover + .names{
+    color: orange;
+}
+.username span:hover + .arr i{
+    border: solid orange;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+i{
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.dropdown-content{
+    display: grid;
+    background: #187472;
+    width: 25%;
+    padding: 3%;
+    float: right;
 }

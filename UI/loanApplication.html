@@ -21,15 +21,21 @@
                     <ul class="row">
                         <li class="p-d-n"> <a class="text-white text-bold " href="#">Apply For Loan</a> </li>
                         <li class="p-d-n"> <a class="text-white text-bold " href="#">Browse Your Loans</a></li>
-                        <li class="p-d-n username">
+                        <li onclick="displaydropdown()" class="p-d-n username">
                             <img src="images/avatar.jpg" alt="user profile">
-                            <span class="text-white">Aime</span>
-                            <i class="fa fa-caret-down"></i>
+                            <span class="text-white names">Aime Malaika &nbsp; </span>
+                            <span class="arr"><i class="down" id="arrorient"></i></span>
                         </li>
                     </ul>
+                    <div class="dropdown-content text-center hidden" id="DropdownProfile">
+                        <a class="text-white p-t-1" href="#"> Profile </a>
+                        <a class="text-white p-t-1" href="#"> Settings </a>
+                        <a class="text-white p-t-1" href="#"> Logout</a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -54,3 +54,17 @@ function showloginonregister(){
     login.classList.remove('hidden');
     login.classList.add('animate-left')
 }
+
+function displaydropdown(){
+    var drop = document.getElementById('DropdownProfile');
+    var dirrection = document.getElementById('arrorient');
+    if(drop.classList.contains('hidden')){
+        drop.classList.remove('hidden');
+        drop.classList.add('animate-fading');
+        dirrection.style.transform = "rotate(45deg)";
+    }else{
+        drop.classList.remove('animate-fading');
+        drop.classList.add('hidden');
+        dirrection.style.transform = "rotate(-45deg)";
+    }
+}
