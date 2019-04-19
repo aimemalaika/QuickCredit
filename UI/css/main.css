@@ -208,6 +208,21 @@ a:hover{
     from{left:-300px;opacity:0} 
     to{left:0;opacity:1}
 }
+.animate-bottom{
+    position:relative;
+    animation:animatebottom 0.4s
+}
+@keyframes animatebottom{
+    from{bottom:-300px;opacity:0} 
+    to{bottom:0;opacity:1}
+}
+.animate-fading{
+    animation:fading 10s infinite
+}@keyframes fading{
+    0%{opacity:0}
+    50%{opacity:1}
+    100%{opacity:0}
+}
 .pr-15px{
     padding-right: 15px;
 }

@@ -40,7 +40,7 @@
                     <p class="text-white text-center">
                         <em>
                             <a class="text-white no-outline mouse pr-15px" onclick="showrecover()">Forgot your password ?</a>
-                           <a class="text-white no-outline" href="#">Register</a>
+                           <a class="text-white no-outline mouse" onclick="showregisteronlogin()">Register</a>
                         </em>
                     </p>
                 </form>
@@ -62,11 +62,57 @@
                     <p class="text-white text-center">
                         <em>
                             <a class="text-white no-outline mouse pr-15px" onclick="showlogin()">I have an account</a>
-                            <a class="text-white no-outline" href="#">Register</a>
+                            <a class="text-white no-outline mouse" onclick="showregisteronrecover()">Register</a>
                         </em>
                     </p>
                 </form>
             </div>
+
+            <!-- registration form -->
+            <div id="register" class="login-form p-t-1 hidden">
+                    <h1 class="text-center text-white text-bold text-uppercase">Log in</h1>
+                    <form method="post">
+                            <div class="col-md-12 p-t-input-top p-d-inp-log">
+                                <input class="col-md-7 form-input no-outline" required type="text" name="" id="firstname">
+                                <label class="floating-label" for="firstname">First Name</label>
+                            </div>
+                            <div class="col-md-12 p-t-input-top p-d-inp-log">
+                                <input class="col-md-7 form-input no-outline" required type="text" name="" id="last">
+                                <label class="floating-label" for="last">Last Name</label>
+                            </div>
+                        <div class="col-md-12 p-t-input-top p-d-inp-log">
+                            <input class="col-md-7 form-input no-outline" required type="email" name="" id="email">
+                            <label class="floating-label" for="email">Email</label>
+                        </div>
+                        <div class="col-md-12 p-t-input p-d-inp-log">
+                            <input class="col-md-7 form-input no-outline" required type="password" name="" id="password">
+                            <label class="floating-label" for="password">Password</label>
+                        </div>
+                        <div class="col-md-12 p-t-input p-d-inp-log">
+                            <input class="col-md-7 form-input no-outline" required type="password" name="" id="password">
+                            <label class="floating-label" for="password">Confirm Password</label>
+                        </div>
+                        <div class="col-md-12 p-t-input p-d-inp-log">
+                            <label class="checkbox-container">
+                                <input type="checkbox" class="no-outline">
+                                <span class="checkmark no-outline"></span>
+                                <p>I accept terms and conditions</p>
+                            </label>
+                        </div>
+                        <div class="col-md-12 p-t-input middle-btn">
+                            <center>
+                                <button class="btn btn-md btn-bold btn-success btn-rounded" type="submit">Sig In</button>
+                            </center>
+                        </div>
+                        <p class="text-white text-center">
+                            <em>
+                                <a class="text-white no-outline mouse pr-15px" onclick="showrecoveronregister()">Forgot your password ?</a>
+                               <a class="text-white no-outline mouse" onclick="showloginonregister()">I have an account</a>
+                            </em>
+                        </p>
+                    </form>
+                </div>
+
             <div class="sticky-footer">
                 <p class="text-white">Designed by <b class="text-bold">Aime Malaika</b></p>
             </div>
