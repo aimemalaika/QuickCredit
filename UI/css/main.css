@@ -168,10 +168,46 @@ a{
     font-size: 1.5em;
 }
 .sticky-footer{
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
     text-align: center;
     left: 0;
 }
 .hidden{
     display: none;
+    transition: max-height 350ms ease-in-out;
+}
+.mouse{
+    cursor: pointer;
+}
+a:hover{
+    color: orange;
+}
+.btn-rounded:hover{
+    background: #16716f80;
+    border: 1px solid #023f3e;
+}
+.btn-md:hover{
+    font-size: 1.3em;
+    color: orange;
+}
+.animate-right{
+    position:relative;
+    animation:animateright 0.4s
+}
+ @keyframes animateright{
+    from{right:-300px;opacity:0} 
+    to{right:0;opacity:1}
+}
+.animate-left{
+    position:relative;
+    animation:animateleft 0.4s
+}
+@keyframes animateleft{
+    from{left:-300px;opacity:0} 
+    to{left:0;opacity:1}
+}
+.pr-15px{
+    padding-right: 15px;
 }

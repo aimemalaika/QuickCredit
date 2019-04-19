@@ -14,7 +14,7 @@
     <div>
        <div class="login-container">
             <p class="app-name"><span>Quick</span> <em>Credit</em></p>
-            <div class="login-form p-t-1">
+            <div id="login" class="login-form p-t-1 animate-left">
                 <h1 class="text-center text-white text-bold text-uppercase">Log in</h1>
                 <form method="post">
                     <div class="col-md-12 p-t-input-top p-d-inp-log">
@@ -39,7 +39,7 @@
                     </div>
                     <p class="text-white text-center">
                         <em>
-                        <a class="text-white no-outline" href="#">Forgot your password ?</a>
+                            <a class="text-white no-outline mouse pr-15px" onclick="showrecover()">Forgot your password ?</a>
                            <a class="text-white no-outline" href="#">Register</a>
                         </em>
                     </p>
@@ -47,7 +47,7 @@
             </div>
 
             <!-- recover password -->
-            <div class="login-form p-t-1 hidden">
+            <div id="recover" class="login-form p-t-1 hidden">
                 <h1 class="text-center text-white text-bold text-uppercase">Recover Password</h1>
                 <form method="post">
                     <div class="col-md-12 p-t-input-top p-d-inp-log">
@@ -59,6 +59,12 @@
                             <button class="btn btn-md btn-bold btn-success btn-rounded" type="submit">Sig In</button>
                         </center>
                     </div>
+                    <p class="text-white text-center">
+                        <em>
+                            <a class="text-white no-outline mouse pr-15px" onclick="showlogin()">I have an account</a>
+                            <a class="text-white no-outline" href="#">Register</a>
+                        </em>
+                    </p>
                 </form>
             </div>
             <div class="sticky-footer">
@@ -66,5 +72,6 @@
             </div>
        </div>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -40,12 +40,12 @@
     .form-input:focus + .floating-label,.form-input:valid + .floating-label {
         margin-top: -10%;
     }
-    .sticky-footer {
+    /* .sticky-footer {
         position: relative;
         width: 100%;
         text-align: center;
         left: 0;
-    }
+    } */
 }
 
 @media (min-width: 414px) {
