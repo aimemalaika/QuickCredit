@@ -23,7 +23,7 @@ body,html{
     width: 70%;
 }
 .p-t-1{
-    padding-top: 10%;
+    padding-top: 6%;
 }
 .p-t-2{
     padding-top: 20%;
@@ -46,6 +46,9 @@ body,html{
 .text-bold{
     font-weight: bold;
 }
+a{
+    text-decoration: none;
+}
 .text-uppercase{
     text-transform: uppercase;
 }
@@ -55,7 +58,9 @@ body,html{
 .text-capital{
     text-transform: capitalize;
 }
-
+.no-outline{
+    outline: none;
+}
 .container {
   display: block;
   position: relative;
@@ -166,4 +171,7 @@ body,html{
     width: 100%;
     text-align: center;
     left: 0;
+}
+.hidden{
+    display: none;
 }

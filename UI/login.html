@@ -18,19 +18,41 @@
                 <h1 class="text-center text-white text-bold text-uppercase">Log in</h1>
                 <form method="post">
                     <div class="col-md-12 p-t-input-top p-d-inp-log">
-                        <input class="col-md-7 form-input" required type="email" name="" id="email">
+                        <input class="col-md-7 form-input no-outline" required type="email" name="" id="email">
                         <label class="floating-label" for="email">Email</label>
                     </div>
                     <div class="col-md-12 p-t-input p-d-inp-log">
-                        <input class="col-md-7 form-input" required type="password" name="" id="password">
+                        <input class="col-md-7 form-input no-outline" required type="password" name="" id="password">
                         <label class="floating-label" for="password">Password</label>
                     </div>
                     <div class="col-md-12 p-t-input p-d-inp-log">
                         <label class="checkbox-container">
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input type="checkbox" class="no-outline">
+                            <span class="checkmark no-outline"></span>
                             <p>Remember me</p>
                         </label>
+                    </div>
+                    <div class="col-md-12 p-t-input middle-btn">
+                        <center>
+                            <button class="btn btn-md btn-bold btn-success btn-rounded" type="submit">Sig In</button>
+                        </center>
+                    </div>
+                    <p class="text-white text-center">
+                        <em>
+                        <a class="text-white no-outline" href="#">Forgot your password ?</a>
+                           <a class="text-white no-outline" href="#">Register</a>
+                        </em>
+                    </p>
+                </form>
+            </div>
+
+            <!-- recover password -->
+            <div class="login-form p-t-1 hidden">
+                <h1 class="text-center text-white text-bold text-uppercase">Recover Password</h1>
+                <form method="post">
+                    <div class="col-md-12 p-t-input-top p-d-inp-log">
+                        <input class="col-md-7 form-input no-outline" required type="email" name="" id="email">
+                        <label class="floating-label" for="email">Email</label>
                     </div>
                     <div class="col-md-12 p-t-input middle-btn">
                         <center>
