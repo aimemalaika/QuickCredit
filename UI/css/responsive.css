@@ -1,4 +1,7 @@
 @media (max-width: 736px) {
+    .other-float{
+        left: 3% !important;
+    }
     .login-container {
         position: absolute;
         width: 90%;
@@ -40,6 +43,9 @@
     .form-input:focus + .floating-label,.form-input:valid + .floating-label {
         margin-top: -10%;
     }
+    .white-background{
+        margin: 0 !important;
+    }
 }
 
 @media (min-width: 414px) {
@@ -51,6 +57,9 @@
     header .logo {
         padding: 6.3% 0%;
     }
+    .form-input:focus + .other-float,.form-input:valid + .other-float {
+        margin-top: -6% !important;
+     }
 }
 @media only screen and (min-width: 361px) and (max-width: 600px) {
     header .logo {
@@ -61,6 +70,15 @@
     header .logo {
         padding: 3%;
     }
+    .full-large{
+        width: 90% !important;
+    }
+    .other-float{
+        left: 2% !important;
+    }
+    .form-input:focus + .other-float,.form-input:valid + .other-float {
+        margin-top: -3% !important;
+     }
 }
 
 @media only screen and (max-width: 852px) and (min-width: 737px)  {
@@ -92,6 +110,15 @@
     }
     .floating-label {
         left: 22%;
+    }
+    .white-background{
+        margin: 0 !important;
+    }
+    .other-float{
+        left: 0% !important;
+    }
+    .full-large{
+        width: 100% !important;
     }
 }
 @media (min-width: 1290px) {

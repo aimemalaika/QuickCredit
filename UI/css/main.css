@@ -4,6 +4,9 @@ body,html{
     padding: 0;
     font-family: 'Roboto';
 }
+*{
+    outline: none !important;
+}
 .container{
     display: block;
     position: relative;
@@ -150,6 +153,10 @@ a{
     padding: 10px 5px;
     color: #ffffffff;
 }
+.other-float{
+    color: #197472cc !important;
+    left: 13% !important;
+}
 .floating-label{
     position: absolute;
     color: rgb(189, 189, 189);
@@ -262,6 +269,9 @@ a:hover{
     letter-spacing: 4px;
     font-size: 1em;
 }
+.left-block-btn{
+    margin: 0 13%;
+}
 
 /* menu header css */
 
@@ -361,8 +371,37 @@ i{
     padding: 5%;
 }
 .menu-content div a{
-    padding: 10%;
+    padding: 0 10%;
 }
 .menuhr{
     border: 1px solid #187472;
 }
+.white-background{
+    background: #FFF !important;
+    border-radius: 0px !important;
+    color: #3d3d3dcc !important;
+    margin: 0 13%;
+}
+.page-container{
+    margin: 5% auto;
+}
+.form-input:focus + .other-float,.form-input:valid + .other-float {
+    margin-top: -2% !important;
+ }
+ .p-t-f{
+     margin-top: 2% !important;
+ }
+ .text-default{
+    color: #187472;
+ }
+ .no-height{
+    height: initial !important;
+ }
+ .sticky-footer-activated{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    background: #187472;
+ }
