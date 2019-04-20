@@ -1,4 +1,13 @@
 @media (max-width: 736px) {
+    .sticky-footer-activated{
+       display: none;
+     }
+    .display-all{
+        width: 85% !important;
+    }
+    .block-display{
+        display: block !important;
+    }
     .other-float{
         left: 3% !important;
     }
