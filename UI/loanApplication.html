@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loan Application Form | Quick Creddit </title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/index.png" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/googlefont.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <span>Quick</span> <em>Credit</em>
+                </div>
+                <div id="toggle" onclick="displaymenus()"><span></span></div>
+                <div class="nav">
+                    <ul class="row">
+                        <li class="p-d-n"> <a class="text-white text-bold " href="#">Apply For Loan</a> </li>
+                        <li class="p-d-n"> <a class="text-white text-bold " href="#">Browse Your Loans</a></li>
+                        <li onclick="displaydropdown()" class="p-d-n username">
+                            <img src="images/avatar.jpg" alt="user profile">
+                            <span class="text-white names">Aime Malaika &nbsp; </span>
+                            <span class="arr"><i class="down" id="arrorient"></i></span>
+                        </li>
+                    </ul>
+                    <div class="dropdown-content text-center hidden" id="DropdownProfile">
+                        <a class="text-white p-t-1" href="#"> Profile </a>
+                        <a class="text-white p-t-1" href="#"> Settings </a>
+                        <a class="text-white p-t-1" href="#"> Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside class="mobile-menu hidden" id="side-nav">
+        <div>
+            <span onclick="hidesidenav()" class="text-bold text-white pull-right mouse close-x">X</span>
+        </div>
+        <div class="menu-content">
+            <u class="text-bold text-white"><p>Menu</p></u>
+            <div> <i class="down"></i> <a class="text-white" href="">Apply for Loan</a></div>
+            <hr class="menuhr">
+            <div> <i class="down"></i> <a class="text-white" href="">Browse Loans</a></div>
+            <hr class="menuhr">
+            <div> <i class="down"></i> <a class="text-white" href="">Settings</a></div>
+            <hr class="menuhr">
+            <div> <i class="down"></i> <a class="text-white" href="">Profile</a></div>
+            <hr class="menuhr">
+            <div><i class="down"></i>  <a class="text-white" href="">Log Out</a></div>
+        </div>
+    </aside>
+    <section class="container no-height">
+        <form method="post">
+                <h1 class="text-center text-default text-bold text-uppercase">Fill All Information</h1>
+            <div class="col-md-12 full-large p-t-f">
+                <input class="col-md-7 form-input white-background no-outline" required type="text" name="" id="names">
+                <label class="floating-label other-float" for="names">Names</label>
+            </div>
+            <div class="col-md-12 full-large p-t-f">
+                <input class="col-md-7 form-input white-background no-outline" required type="text" onkeypress="return isNumberKey(event)" name="" id="amount">
+                <label class="floating-label other-float" for="amount">Amount in AmericanUSD ($)</label>
+            </div>
+            <div class="col-md-12 full-large p-t-f">
+                    <textarea class="col-md-7 form-input white-background no-outline" required name="" id="description">
+                    </textarea>
+                    <label class="floating-label other-float" for="description">description</label>
+                </div>
+            <div class="col-md-12 p-t-f middle-btn">
+                <button class="btn btn-md btn-bold btn-success btn-rounded left-block-btn" type="submit">Apply</button>
+            </div>
+        </form>
+    </section>
+    <div class="sticky-footer-activated">
+        <p class="text-white">Designed by <b class="text-bold">Aime Malaika</b></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
