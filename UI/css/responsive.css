@@ -138,4 +138,7 @@
         margin-right: 3% !important;
         width: 94% !important;
     }
+    .no-height{
+        height: 100% !important;
+     }
 }
