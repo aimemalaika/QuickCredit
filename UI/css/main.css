@@ -7,10 +7,10 @@ body,html{
 .container{
     display: block;
     position: relative;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 100%;
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    height: 100% !important;
 }
 .row{
     display: flex;
@@ -25,7 +25,7 @@ body,html{
     list-style-type: none;
     justify-content: flex-end !important;
 }
-.nav .row img{
+.nav .row img,nav img{
     height: 80%;
     margin-top: -2px;
     margin-right: 5px;
@@ -310,6 +310,7 @@ i{
     width: 28px;
     height: 30px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 #toggle span:after,
@@ -336,3 +337,32 @@ i{
     border-radius: 2px;
 }
   
+.mobile-menu{
+    position: fixed;
+    z-index: 1;
+    width: 60%;
+    height: 100%;
+    background: #187472cc;
+}
+.pull-right{
+    float: right;
+}
+.close-x{
+    padding: 4px;
+    background: orange;
+    margin: 5px;
+    border-radius: 25%;
+}
+.close-x:hover{
+    background: red;
+}
+.menu-content{
+    margin-top: 12%;
+    padding: 5%;
+}
+.menu-content div a{
+    padding: 10%;
+}
+.menuhr{
+    border: 1px solid #187472;
+}

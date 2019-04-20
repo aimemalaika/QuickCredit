@@ -68,3 +68,16 @@ function displaydropdown(){
         dirrection.style.transform = "rotate(-45deg)";
     }
 }
+
+function displaymenus(){
+    var nav = document.getElementById('side-nav');
+    nav.classList.remove('hidden');
+    nav.classList.add('animate-left');
+}
+
+function hidesidenav(){
+    var nav = document.getElementById('side-nav');
+    nav.classList.remove('animate-left');
+    nav.classList.add('animate-right');
+    nav.classList.add('hidden');
+}
