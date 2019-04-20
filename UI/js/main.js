@@ -54,3 +54,36 @@ function showloginonregister(){
     login.classList.remove('hidden');
     login.classList.add('animate-left')
 }
+
+function displaydropdown(){
+    var drop = document.getElementById('DropdownProfile');
+    var dirrection = document.getElementById('arrorient');
+    if(drop.classList.contains('hidden')){
+        drop.classList.remove('hidden');
+        drop.classList.add('animate-fading');
+        dirrection.style.transform = "rotate(45deg)";
+    }else{
+        drop.classList.remove('animate-fading');
+        drop.classList.add('hidden');
+        dirrection.style.transform = "rotate(-45deg)";
+    }
+}
+
+function displaymenus(){
+    var nav = document.getElementById('side-nav');
+    nav.classList.remove('hidden');
+    nav.classList.add('animate-left');
+}
+
+function hidesidenav(){
+    var nav = document.getElementById('side-nav');
+    nav.classList.remove('animate-left');
+    nav.classList.add('animate-right');
+    nav.classList.add('hidden');
+}
+function isNumberKey(evt){
+    var charCode = (evt.which) ? evt.which : event.keyCode
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;
+}
