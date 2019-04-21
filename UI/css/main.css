@@ -390,14 +390,11 @@ i{
 .pull-right{
     float: right;
 }
-<<<<<<< HEAD
-=======
 .smal-btn{
     background: #00c9ff;
     padding: 5px 5px;
     border-radius: 27%;
 }
->>>>>>> feature_list_loan
 .close-x{
     padding: 4px;
     background: orange;
@@ -445,10 +442,7 @@ i{
     text-align: center;
     left: 0;
     background: #187472;
-<<<<<<< HEAD
-=======
  }
  .ptl2{
     margin-left: 2%;
->>>>>>> feature_list_loan
  }
