@@ -7,7 +7,10 @@ body,html{
 *{
     outline: none !important;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature_list_loan_applications
 .container{
     display: block;
     position: relative;
@@ -445,4 +448,20 @@ i{
  }
  .ptl2{
     margin-left: 2%;
+<<<<<<< HEAD
+=======
+ }
+ .flex{
+    display: flex;
+ }
+ .round-small{
+    width: 5%;
+    border-radius: 50%;
+ }
+ .name-img{
+    margin: 20px 18px;
+ }
+ .p-b-15{
+    margin-bottom: 15px;
+>>>>>>> feature_list_loan_applications
  }
