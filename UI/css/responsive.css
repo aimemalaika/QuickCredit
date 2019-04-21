@@ -55,6 +55,9 @@
     .white-background{
         margin: 0 !important;
     }
+    .sticknav {
+        width: 84% !important;
+    }
 }
 
 @media (min-width: 414px) {
@@ -87,7 +90,14 @@
     }
     .form-input:focus + .other-float,.form-input:valid + .other-float {
         margin-top: -3% !important;
-     }
+    }
+    .sticknav{
+        width: 84% !important;
+        top: -53px;
+    }
+    .round-small {
+        width: 11%;
+    }
 }
 
 @media only screen and (max-width: 852px) and (min-width: 737px)  {
@@ -133,6 +143,11 @@
 @media (min-width: 1290px) {
     .login-background {
         background-size: cover;
+    }
+}
+@media only screen and (max-width: 1086px) and (min-width: 737px)  {
+    .sticknav{
+        width: 94% !important;
     }
 }
 @media(max-width: 1086px){

@@ -206,9 +206,13 @@ a{
     padding: 5px 30px;
     border-radius: 5px;
     color: #fff;
+    outline: none !important;
 }
 .btn-success{
     background: #0c5351;
+}
+.btn-danger{
+    background: #d6260f;
 }
 .btn-rounded{
     border-radius: 30px;
@@ -230,10 +234,19 @@ a{
 .mouse{
     cursor: pointer;
 }
+.sticknav{
+    position: fixed;
+    width: 80% !important;
+    top: -46px;
+    margin: 0 !important;
+}
+.separator{
+    min-height: 8%;
+}
 a:hover{
     color: orange;
 }
-.btn-rounded:hover{
+.btn:hover{
     background: #16716f80;
     border: 1px solid #023f3e;
 }
@@ -457,4 +470,7 @@ i{
  }
  .p-b-15{
     margin-bottom: 15px;
+ }
+ .space-between{
+     justify-content: space-between;
  }

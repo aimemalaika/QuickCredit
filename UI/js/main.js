@@ -87,3 +87,16 @@ function isNumberKey(evt){
         return false;
     return true;
 }
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("fixed-menu");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticknav")
+  } else {
+    navbar.classList.remove("sticknav");
+  }
+}
