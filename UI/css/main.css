@@ -7,10 +7,6 @@ body,html{
 *{
     outline: none !important;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> feature_list_loan_applications
 .container{
     display: block;
     position: relative;
@@ -448,8 +444,6 @@ i{
  }
  .ptl2{
     margin-left: 2%;
-<<<<<<< HEAD
-=======
  }
  .flex{
     display: flex;
@@ -463,5 +457,4 @@ i{
  }
  .p-b-15{
     margin-bottom: 15px;
->>>>>>> feature_list_loan_applications
  }
