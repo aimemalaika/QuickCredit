@@ -66,6 +66,13 @@ body,html{
 .p-t-1{
     padding-top: 6%;
 }
+<<<<<<< HEAD
+=======
+.listloan{
+    background: #187472;
+    padding: 10px 20px;
+}
+>>>>>>> feature_list_loan
 .p-t-2{
     padding-top: 20%;
 }
@@ -385,6 +392,14 @@ i{
 .pull-right{
     float: right;
 }
+<<<<<<< HEAD
+=======
+.smal-btn{
+    background: #00c9ff;
+    padding: 5px 5px;
+    border-radius: 27%;
+}
+>>>>>>> feature_list_loan
 .close-x{
     padding: 4px;
     background: orange;
@@ -432,4 +447,10 @@ i{
     text-align: center;
     left: 0;
     background: #187472;
+<<<<<<< HEAD
+=======
+ }
+ .ptl2{
+    margin-left: 2%;
+>>>>>>> feature_list_loan
  }
