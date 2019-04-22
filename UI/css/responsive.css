@@ -60,6 +60,7 @@
     }
     .sticknav {
         width: 84% !important;
+    }
 }
 
 @media (min-width: 414px) {
@@ -107,7 +108,6 @@
     .round-small {
         width: 11%;
     }
-     }
 }
 
 @media only screen and (max-width: 852px) and (min-width: 737px)  {
