@@ -7,6 +7,14 @@ body,html{
 *{
     outline: none !important;
 }
+.round-medium {
+    width: 25%;
+    border-radius: 5%;
+}
+.spacing-44{
+    line-height: 74px;
+}
+
 .container{
     display: block;
     position: relative;
@@ -186,6 +194,9 @@ a{
 .other-float{
     color: #197472cc !important;
     left: 13% !important;
+}
+.mid-screen{
+    left: 51% !important;
 }
 .floating-label{
     position: absolute;
@@ -441,6 +452,9 @@ i{
  .p-t-f{
      margin-top: 2% !important;
  }
+ .ptf10{
+    margin-top: 10% !important;
+ }
  .text-default{
     color: #187472;
  }
@@ -468,9 +482,24 @@ i{
  .name-img{
     margin: 20px 18px;
  }
+ 
  .p-b-15{
     margin-bottom: 15px;
  }
  .space-between{
      justify-content: space-between;
  }
+ .p-b-15{
+    margin-bottom: 15px;
+ }
+ .flex{
+    display: flex;
+}
+.name-img-bdr{
+    margin: 30px 18px;
+}
+.round-small-bdr{
+    width: 19%;
+    border-radius: 50%;
+    background: blue;
+}

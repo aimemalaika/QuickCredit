@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     height: 100%;
 }
+
 .login-background::before{
     content: "";
     display: block;
