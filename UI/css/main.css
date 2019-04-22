@@ -195,6 +195,9 @@ a{
     color: #197472cc !important;
     left: 13% !important;
 }
+.mid-screen{
+    left: 51% !important;
+}
 .floating-label{
     position: absolute;
     color: rgb(189, 189, 189);
@@ -449,6 +452,9 @@ i{
  }
  .p-t-f{
      margin-top: 2% !important;
+ }
+ .ptf10{
+    margin-top: 10% !important;
  }
  .text-default{
     color: #187472;
