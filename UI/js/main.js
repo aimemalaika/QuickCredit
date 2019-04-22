@@ -8,6 +8,7 @@ function showrecover(){
     recover.classList.remove('hidden');
     recover.classList.add('animate-right')
 }
+
 function showlogin(){
     var recover = document.getElementById('recover');
     recover.classList.remove('animate-right');
