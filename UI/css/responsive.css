@@ -1,4 +1,7 @@
 @media (max-width: 736px) {
+    .fullIm{
+        width: 100%;
+    }
     .sticky-footer-activated{
        display: none;
      }
@@ -57,6 +60,11 @@
     }
     .sticknav {
         width: 84% !important;
+}
+
+@media (min-width: 414px) {
+    .app-name {
+       font-size: 2em;
     }
 }
 
@@ -65,6 +73,7 @@
        font-size: 2em;
     }
 }
+
 @media (max-width: 360px) {
     header .logo {
         padding: 6.3% 0%;
@@ -98,6 +107,7 @@
     .round-small {
         width: 11%;
     }
+     }
 }
 
 @media only screen and (max-width: 852px) and (min-width: 737px)  {

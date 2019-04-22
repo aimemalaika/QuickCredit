@@ -7,6 +7,13 @@ body,html{
 *{
     outline: none !important;
 }
+.round-medium {
+    width: 25%;
+    border-radius: 5%;
+}
+.spacing-44{
+    line-height: 74px;
+}
 .container{
     display: block;
     position: relative;
@@ -392,6 +399,7 @@ i{
     backface-visibility: hidden;
     border-radius: 2px;
 }
+  
 .mobile-menu{
     position: fixed;
     z-index: 1;
@@ -473,6 +481,8 @@ i{
     margin-bottom: 15px;
  }
  .space-between{
-     
      justify-content: space-between;
+ }
+ .p-b-15{
+    margin-bottom: 15px;
  }

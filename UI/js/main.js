@@ -8,7 +8,10 @@ function showrecover(){
     recover.classList.remove('hidden');
     recover.classList.add('animate-right')
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature_client_verification
 function showlogin(){
     var recover = document.getElementById('recover');
     recover.classList.remove('animate-right');
@@ -87,6 +90,7 @@ function isNumberKey(evt){
     if (charCode > 31 && (charCode < 48 || charCode > 57))
         return false;
     return true;
+<<<<<<< HEAD
 }
 
 window.onscroll = function() {myFunction()};
@@ -100,4 +104,6 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticknav");
   }
+=======
+>>>>>>> feature_client_verification
 }
