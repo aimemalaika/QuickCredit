@@ -493,3 +493,14 @@ i{
  .p-b-15{
     margin-bottom: 15px;
  }
+ .flex{
+    display: flex;
+}
+.name-img-bdr{
+    margin: 30px 18px;
+}
+.round-small-bdr{
+    width: 19%;
+    border-radius: 50%;
+    background: blue;
+}
